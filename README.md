@@ -14,7 +14,7 @@ R    = 10.05 Angstrom
 :two: Simulations for **Temperature 20 Kelvin** 
 
    ```
-   **The interaction potential is modelled by dipole - dipole interactions.**
+   The interaction potential is modelled by dipole - dipole interactions.
    ```
 
    _The list of beads P is_
