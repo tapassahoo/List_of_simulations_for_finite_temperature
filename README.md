@@ -11,7 +11,7 @@ R    = 10.05 Angstrom
 # of Pass   = 200
 ```
 
-:one: Simulations for **Temperature 20 Kelvin** 
+:one: Simulations for **Temperature 20 Kelvin** and **N=1**
 
    ```
    The interaction potential is modelled by dipole - dipole interactions.
@@ -23,13 +23,13 @@ R    = 10.05 Angstrom
    P    = [4, 8, 16, 32, 64] 
    ```		
 		
-   - [x] N = 2, g = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0] :+1: **In Feynman**
+   - [x] N = 1, Dipole Moment in Debye = [10.0, 15.0, 20.0] :+1: **In Feynman**
     
-   ~/work/tapas/linear-rotors-PIMC/PIMC-RotDOFs-Rpt10.05Angstrom-DipoleMoment*Debye-beta0.05Kinv-Blocks150000-Passes200-System2HF-e0vsbeads*~
+   ~/work/tapas/linear-rotors-PIMC/PIMC-RotDOFs-Rpt10.05Angstrom-DipoleMoment10.0Debye-beta0.05Kinv-Blocks150000-Passes200-System1HF-e0vsbeads*~
     
    Analysis complete: Skipped data first 0
 
-:two: Simulations for **Temperature 20 Kelvin** 
+:two: Simulations for **Temperature 20 Kelvin** and **N=2**
 
    ```
    The interaction potential is modelled by dipole - dipole interactions.
@@ -41,9 +41,9 @@ R    = 10.05 Angstrom
    P    = [4, 8, 16, 32, 64] 
    ```		
 		
-   - [x] N = 2, g = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0] :+1: **In Feynman**
+   - [x] N = 2, Dipole Moment in Debye = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0] :+1: **In Feynman**
     
-   ~/work/tapas/linear-rotors-PIMC/PIMC-RotDOFs-Rpt10.05Angstrom-DipoleMoment*Debye-beta0.05Kinv-Blocks150000-Passes200-System2HF-e0vsbeads*~
+   ~/work/tapas/linear-rotors-PIMC/PIMC-RotDOFs-Rpt10.05Angstrom-DipoleMoment1.0Debye-beta0.05Kinv-Blocks150000-Passes200-System2HF-e0vsbeads*~
     
    Analysis complete: Skipped data first 0
 
