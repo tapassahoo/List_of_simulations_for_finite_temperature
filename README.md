@@ -2,7 +2,7 @@
 
 # List of simulations has been performed for the estimation of thermodynamic properties at a finite temperature for many linear rotors systems
 
-List of simulations by using Path Integral Ground State Monte Carlo for the estimation of Renyi entropy for N number of rotors placed in a linear chain. The interaction potential is modelled by dipole - dipole interactions. The following parameters has been used for all simulations -
+List of simulations by using Path Integral Monte Carlo for the estimation of thermodynamic properties of N number of rotors placed in a linear chain.  The following parameters has been used for all simulations -
  ```
 Rotational B constant = 20.561 wavenumber
 R    = 10.05 Angstrom
@@ -11,7 +11,11 @@ R    = 10.05 Angstrom
 # of Pass   = 200
 ```
 
-:one: Simulations for **Temperature 20 Kelvin**  
+:two: Simulations for **Temperature 20 Kelvin** 
+
+   ```
+   **The interaction potential is modelled by dipole - dipole interactions.**
+   ```
 
    _The list of beads P is_
     
@@ -19,7 +23,7 @@ R    = 10.05 Angstrom
    P    = [4, 8, 16, 32, 64] 
    ```		
 		
-   - [x] N = 2, g = [1.0, 2.0, 4.0, 6.0, 8.0] :+1: **In Feynman**
+   - [x] N = 2, g = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0] :+1: **In Feynman**
     
    ~/scratch/tapas/test-ratio-trick/ENT-RotDOFs-Rpt10.05Angstrom-gFactor1.0-tau0.005Kinv-Blocks20000-Passes100-System2HF-ParticleA*-e0vsbeads-SWAPTOUNSWAP~
     
