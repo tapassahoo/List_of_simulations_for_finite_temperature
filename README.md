@@ -14,7 +14,7 @@ R    = 10.05 Angstrom
 :one: Simulations for **Temperature 20 Kelvin** and **N=1**
 
    ```
-   The interaction potential is modelled by dipole - dipole interactions.
+   Type of potential: Rotor under the electric field along z--axis
    ```
 
    _The list of beads P is_
@@ -32,7 +32,7 @@ R    = 10.05 Angstrom
 :two: Simulations for **Temperature 20 Kelvin** and **N=2**
 
    ```
-   The interaction potential is modelled by dipole - dipole interactions.
+   Type of potential: The interaction potential is modelled by dipole - dipole interactions.
    ```
 
    _The list of beads P is_
