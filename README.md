@@ -11,6 +11,24 @@ R    = 10.05 Angstrom
 # of Pass   = 200
 ```
 
+:one: Simulations for **Temperature 20 Kelvin** 
+
+   ```
+   The interaction potential is modelled by dipole - dipole interactions.
+   ```
+
+   _The list of beads P is_
+    
+   ```
+   P    = [4, 8, 16, 32, 64] 
+   ```		
+		
+   - [x] N = 2, g = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0] :+1: **In Feynman**
+    
+   ~/work/tapas/linear-rotors-PIMC/PIMC-RotDOFs-Rpt10.05Angstrom-DipoleMoment*Debye-beta0.05Kinv-Blocks150000-Passes200-System2HF-e0vsbeads*~
+    
+   Analysis complete: Skipped data first 0
+
 :two: Simulations for **Temperature 20 Kelvin** 
 
    ```
@@ -25,20 +43,8 @@ R    = 10.05 Angstrom
 		
    - [x] N = 2, g = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0] :+1: **In Feynman**
     
-   ~/scratch/tapas/test-ratio-trick/ENT-RotDOFs-Rpt10.05Angstrom-gFactor1.0-tau0.005Kinv-Blocks20000-Passes100-System2HF-ParticleA*-e0vsbeads-SWAPTOUNSWAP~
+   ~/work/tapas/linear-rotors-PIMC/PIMC-RotDOFs-Rpt10.05Angstrom-DipoleMoment*Debye-beta0.05Kinv-Blocks150000-Passes200-System2HF-e0vsbeads*~
     
    Analysis complete: Skipped data first 0
-
-   - [x] N = 8, g = [1.0, 1.5, 2.0]           :+1: **In Graham**
-    
-   ~/scratch/tapas/test-ratio-trick/ENT-RotDOFs-Rpt10.05Angstrom-gFactor1.0-tau0.005Kinv-Blocks20000-Passes100-System8HF-ParticleA*-e0vsbeads-SWAPTOUNSWAP~
-
-   Analysis complete: Skipped data first 0, 10000, 15000
-
-   - [x] N = 16,g = [1.0, 1.3]                :+1: **In Graham** 
-    
-   ~/scratch/tapas/test-ratio-trick/ENT-RotDOFs-Rpt10.05Angstrom-gFactor1.0-tau0.005Kinv-Blocks20000-Passes100-System16HF-ParticleA*-e0vsbeads-SWAPTOUNSWAP~
-
-   Analysis complete: Skipped data first 0, 10000, 15000
 
    
