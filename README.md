@@ -1,4 +1,4 @@
-# ListOfSimulationsForFiniteTemperature
+# PIMC simulations for linear rotors
 
 # List of simulations has been performed for the estimation of thermodynamic properties at a finite temperature for many linear rotors systems
 
