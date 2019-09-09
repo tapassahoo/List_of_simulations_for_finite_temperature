@@ -1,5 +1,3 @@
-# PIMC simulations for linear rotors
-
 # List of simulations has been performed for the estimation of thermodynamic properties at a finite temperature for many linear rotors systems
 
 List of simulations by using Path Integral Monte Carlo for the estimation of thermodynamic properties of N number of rotors placed in a linear chain.  The following parameters has been used for all simulations -
